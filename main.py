@@ -8,7 +8,6 @@ Created on Tue Jan 23 14:07:51 2024
 import pandas as pd
 import streamlit as st
 import pickle
-from sklearn.preprocessing import StandardScaler
 
 with open("C:/Users/HP/Desktop/Summer Program/Machine Learning/Classification/Diabetes Prediction/diabetes_predictor.pkl", "rb") as f:
     loaded_model = pickle.load(f)
